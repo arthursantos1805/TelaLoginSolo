@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Cadastro</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div id="cadastro">
+            <div id="header"></div>
+            <h1>Área de Cadastro</h1>
+            <form>
+                <label for="user">Usuário</label>
+                <input type="text" name="user" id="user" minlength="4" maxlength="16" required> 
+
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" minlength="4" required placeholder="exemplo@gmail.com">
+
+                <label for="passw">Senha</label>
+                <input type="password" name="passw" id="passw" minlength="4" maxlength="24" required>
+
+                <label for="passwconf">Confirmar Senha</label>
+                <input type="password" name="passwconf" id="passwconf" minlength="4" maxlength="24" required>
+
+                <div id="erro"></div>
+                <button id="btnCadastro">Cadastrar</button>
+
+                <p>Já possui uma conta? <a target="_self" href="../pagelogin/pagelogin.html">Clique aqui</a> para fazer login.</p>
+
+            </form>
+        </div>
+    </main>
+</body>
+</html>

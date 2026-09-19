@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Cadastro</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div id="login">
+            <div id="header"></div>
+            <h1>Login</h1>
+            <form>
+                <label for="useremail">Usuário ou Email</label>
+                <input type="text" name="useremail" id="useremail" minlength="4" required > 
+                
+
+                <label for="passw">Senha</label>
+                <input type="password" name="passw" id="passw" minlength="4" maxlength="24" required>
+
+                <div id="erro"></div>
+                <button id="btnLogin">Login</button>
+
+                <p>Não possui uma conta? <a target="_self" href="../pagecad/pagecad.html">Clique aqui</a> para fazer o cadastro.</p>
+            </form>
+        </div>
+    </main>
+</body>
+</html>
