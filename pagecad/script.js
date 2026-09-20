@@ -23,7 +23,7 @@ btnCadastro.addEventListener('click', () => {
     const passwconf = inputSenhaConf.value
 
     fetch(endpoint)
-        .then(response => JSON.parse(response))
+        .then(response => response.json())
         .then(data => {
             for (usuario of data) {
                 if (usuario.user == user) {
