@@ -7,7 +7,7 @@ form.addEventListener('submit', (evt)=> {
     evt.preventDefault();
 })
 
-const endpoint = 'http://127.0.0.1:8000/users'
+const endpoint = 'https://apiusers-l8hp.onrender.com/users'
 
 const btnLogin = document.getElementById('btnLogin')
 
