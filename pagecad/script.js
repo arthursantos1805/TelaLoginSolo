@@ -42,7 +42,6 @@ btnCadastro.addEventListener('click', () => {
                 })
 
             divErro.innerHTML = 'Sucesso!'
-            window.location.replace('../pagelogin/pagelogin.html')
         } else {
             divErro.innerHTML = 'As senhas não coincidem. Tente novamente.'
         }
